@@ -6,7 +6,6 @@
       <div class="wheel-wrapper">
         <div
           class="wheel-pointer"
-          :class="[pointerDisabled ? 'pointer-disabled' : '']"
           @click="onClickRotate"
         >
           <!-- Start -->
@@ -83,8 +82,6 @@ export default {
         },
       ],
 
-      clientWidth: ''
-
     };
   },
   components:{
@@ -102,8 +99,6 @@ export default {
   },
   created(){
 
-    this.initData()
-    this.clientWidth = document.body.clientWidth
   },
 
   computed: {

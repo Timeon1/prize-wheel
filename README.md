@@ -1,5 +1,11 @@
 # toutiao-demo
 
+![](https://github.com/Timeon1/prize-wheel/blob/master/static/imgs/shoot.png)
+
+
+
+
+
 ## Project setup
 ```
 npm install
@@ -20,5 +26,4 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`点颗闪亮的Star吧`
